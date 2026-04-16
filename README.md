@@ -1,7 +1,7 @@
 # claude_101
 Building a website which acts as a  Claude's Handbook for Vibe Coders and FDSE developers. Just Hop in and check out the essential Claude concepts and tricks.
 
-Here’s a clean, professional README you can directly use for your repo 👇
+
 
 ---
 
@@ -121,17 +121,5 @@ This project is open-source and available under the **MIT License**.
 
 ---
 
-## ✨ Final Note
 
-If you're still using AI like Google, you're only scratching the surface.
-
-**Claude101 is about going deeper.**
-
----
-
-If you want, I can also:
-
-* tailor this README to your exact tech stack
-* add badges (build, deploy, license)
-* or make it more “GitHub viral” style 😄
 
