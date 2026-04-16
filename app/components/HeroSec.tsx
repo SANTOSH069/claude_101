@@ -1,4 +1,6 @@
+import Image from "next/image"
 import Link from "next/link"
+import ClaudeImg from '@/public/CluadeImg.png'
 
 const HeroSec = () => {
     return (
@@ -11,7 +13,7 @@ const HeroSec = () => {
                         <span className='inline-block w-1.5 h-1.5 rounded-full bg-button'></span>
                         Cluade can automate 70% of your Workflow
                     </div>
-                    <h1 className='text-5xl md:text-7xl font-extrabold tracking-tight text-heading leading-[1.1] text-balance'>
+                    <h1 className='text-5xl md:text-7xl font-bold tracking-tighter text-heading leading-[1.1] text-balance'>
                         Stop treating Claude{' '}
                         <span className='relative inline-block'>
                             <span className='relative z-10'>like Google.</span>
@@ -23,7 +25,6 @@ const HeroSec = () => {
                         Experience AI that reasons deeply, provides thoughtful analysis,
                         and helps you understand complex problems — not just retrieve answers.
                     </p>
-
                     <div className='flex flex-col sm:flex-row items-center gap-4 mx-auto max-w-md justify-center align-center mt-8'>
                         <Link href={`https://claude.ai/`}>
                             <button className='w-full sm:w-auto px-6 py-3 text-md bg-button text-white text-sm font-medium rounded-lg whitespace-nowrap cursor-pointer'>
@@ -31,13 +32,24 @@ const HeroSec = () => {
                             </button>
                         </Link>
                         <button className='w-full sm:w-auto px-6 py-3 text-md bg-heading text-white text-sm font-medium rounded-lg whitespace-nowrap'>
-                            Docs
+                            Read Docs
                         </button>
                     </div>
 
 
                 </div>
 
+                <div className='hidden lg:block absolute top-20 right-20 xl:right-32 opacity-80 hover:opacity-100 transition-opacity duration-300'>
+                    <Image src={ClaudeImg} height={100} width={100} alt="Claude Logo" className='drop-shadow-lg' />
+                </div>
+
+                <div className='hidden lg:block absolute top-32 left-10 xl:left-20 opacity-70 hover:opacity-100 transition-opacity duration-300'>
+                    <Image src={ClaudeImg} height={80} width={80} alt="Claude Logo" className='drop-shadow-lg' />
+                </div>
+
+                <div className='hidden xl:block absolute bottom-20 top-3/4 right-1/6 -translate-x-1/2 opacity-60 hover:opacity-80 transition-opacity duration-300'>
+                    <Image src={ClaudeImg} height={90} width={90} alt="Claude Logo" className='drop-shadow-lg' />
+                </div>
 
                 <div className='hidden lg:block absolute left-6  xl:left-16 top-3/4   -translate-y-1/2'>
                     <div className='bg-white rounded-2xl shadow-[0_1px_3px_rgba(0,0,0,0.06),0_8px_24px_rgba(0,0,0,0.04)] border border-gray-100 p-5 w-52 space-y-4'>
