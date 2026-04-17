@@ -59,13 +59,7 @@ to
 
 ---
 
-## 🛠️ Tech Stack
 
-*(Update this based on what you're using)*
-
-* Frontend: HTML, CSS, JavaScript / React
-* Styling: Tailwind CSS (optional)
-* Hosting: Vercel / Netlify / GitHub Pages
 
 ---
 
