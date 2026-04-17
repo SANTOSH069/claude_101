@@ -1,6 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 import ClaudeImg from '@/public/CluadeImg.png'
+import ClaudeHero from '@/public/Claude.png'
 
 const HeroSec = () => {
     return (
@@ -39,8 +40,8 @@ const HeroSec = () => {
 
                 </div>
 
-                <div className='hidden lg:block absolute top-20 right-20 xl:right-32 opacity-80 hover:opacity-100 transition-opacity duration-300'>
-                    <Image src={ClaudeImg} height={100} width={100} alt="Claude Logo" className='drop-shadow-lg' />
+                <div className='hidden lg:block absolute top-20 right-20 xl:right-32 opacity-80 hover:opacity-100 hover:rotate-45 transition-opacity duration-300'>
+                    <Image src={ClaudeImg} height={100} width={100} alt="Claude Logo" className='drop-shadow-lg ' />
                 </div>
 
                 <div className='hidden lg:block absolute top-32 left-10 xl:left-20 opacity-70 hover:opacity-100 transition-opacity duration-300'>
@@ -116,6 +117,12 @@ const HeroSec = () => {
                         </div>
                     </div>
                 </div>
+                {/* <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-full max-w-6xl z-10 pointer-events-none">
+                    <div className="relative w-full flex items-end justify-center overflow-hidden max-h-[160px] rounded-t-lg">
+                        <div className="absolute inset-0 bg-linear-to-t from-button/15 via-button/5 to-transparent rounded-t-lg z-10"></div>
+                        <Image src={ClaudeHero} width={900} height={500} alt="Claude Workflow" className="w-full h-auto object-cover object-top shadow-[0_-8px_30px_rgba(217,119,87,0.12)] border-8 border-neutral-200/45 rounded-lg " />
+                    </div>
+                </div> */}
             </section>
         </div>
     )
