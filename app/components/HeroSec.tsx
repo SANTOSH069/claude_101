@@ -27,14 +27,16 @@ const HeroSec = () => {
                         and helps you understand complex problems — not just retrieve answers.
                     </p>
                     <div className='flex flex-col sm:flex-row items-center gap-4 mx-auto max-w-md justify-center align-center mt-8'>
-                        <Link href={`https://claude.ai/`}>
+                        <Link href={`https://claude.ai/`} about="Redirects to claude">
                             <button className='w-full sm:w-auto px-6 py-3 text-md bg-button text-white text-sm font-medium rounded-lg whitespace-nowrap cursor-pointer'>
                                 Get Started
                             </button>
                         </Link>
+                        <Link href={`/docs`} about="Leads to docs page">
                         <button className='w-full sm:w-auto px-6 py-3 text-md bg-heading text-white text-sm font-medium rounded-lg whitespace-nowrap'>
                             Read Docs
                         </button>
+                        </Link>
                     </div>
 
 
