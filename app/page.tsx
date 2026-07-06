@@ -1,5 +1,5 @@
 import HeroSec from './components/HeroSec'
-import Navbar from './components/Navbar'
+import Navbar from './components/Sidebar'
 
 const page = () => {
   return (
